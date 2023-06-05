@@ -1,4 +1,4 @@
-# Franka Lock Unlock
+# Franka Lock Unlock (ROS2)
 
 Locking and unlocking of Franka Emika Panda joint brakes programmatically. Open or close all joint locks either from the command-line, or from any Python program.
 
