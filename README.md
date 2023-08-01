@@ -39,14 +39,14 @@ The ROS package can be installed and invoked by the following commands.
 ### Installation
 
 ```
-git clone https://github.com/jk-ethz/franka_lock_unlock
-catkin build franka_lock_unlock
+git clone https://github.com/drewskoots/franka_lock_unlock
+colcon build --packages-select franka_lock_unlock
 ```
 
 ### Simple Usage
 
 ```
-rosrun franka_lock_unlock __init__.py <PARAMS>
+ros2 run franka_lock_unlock __init__.py <PARAMS>
 ```
 
 ### Advanced Usage
